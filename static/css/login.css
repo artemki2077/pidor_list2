@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--bg-color);
+    font-family: system-ui;
+    text-align: center;
+}
+.title{
+    text-align: center;
+	font-size: 6vw;
+	color: var(--title-color);
+	margin: 100px;
+}
+input{
+    background-color: var(--bg-color);
+    border: solid 3px;
+    border-color: var(--number-text-color);
+    padding: 10px 20px;
+    font-size: 20px;
+    color: var(--main-text-color);
+}
+.name{
+    border-radius: 20px 20px 0 0;
+}
+.pass{
+    border-radius: 0 0 20px 20px;
+}
+.go{
+    margin-top: 30px;
+    border-radius:20px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .title{
+        font-size: 6vh;
+    }
+}

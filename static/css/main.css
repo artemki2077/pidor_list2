@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    font-family: system-ui;
+    background-color: var(--bg-color);
+    text-align: center;
+}
+.title{
+    text-align: center;
+	font-size: 6vw;
+	color: var(--title-color);
+	margin: 100px;
+}
+.link{
+	text-decoration: none;
+	font-size: 2.5vmax;
+	color: var(--main-text-color);
+}
+.name{
+    margin: 20px;
+	font-size: 2.5vmax;
+	color: var(--main-text-color);
+}
+.points{
+	padding: 30px;
+	color: var(--number-text-color);
+}
+.login{
+    text-decoration: none;
+    color: var(--add-text-color);
+    position: fixed;
+    font-size: 30px;
+    right: 20px;
+    top: 20px;
+    padding: 15px 35px;
+    border: solid 3px var(--add-text-color);
+    border-radius: 20px;
+    transition: all .3s;
+}
+.login:hover{
+    background-color: var(--add-text-color);
+    color: #282A35;
+}
+
+
+@media screen and (max-width: 600px) {
+    .link{
+        font-size: 4vmax;
+    }
+    .name{
+        font-size: 4vmax;
+    }
+    .login{
+        font-size: 15px;
+        padding: 10px 25px;
+    }
+    .title{
+        font-size: 5vmax;
+        margin: 100px 70px;
+        margin-top: 125px;
+    }
+}
